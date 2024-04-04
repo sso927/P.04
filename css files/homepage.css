@@ -1,0 +1,13 @@
+
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+ 
