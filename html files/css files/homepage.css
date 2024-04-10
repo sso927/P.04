@@ -1,3 +1,20 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+	padding-bottom: 2em;
+	padding-top: 2em;
+	background-color: #FDFCDC;
+	max-width: 15em;
+}
+
+.card h4 {
+	padding-top: 0.5em;;
+}
+
+
+
 
 /* the styles for the footer */
 footer {
