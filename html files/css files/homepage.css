@@ -3,10 +3,26 @@
 	box-sizing: border-box;
 }
 
+div div nav {
+	height: 5em;
+	font-weight: 1000;
+}
+
+div h1 {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 15em;
+	font-weight: 800;
+}
+/*figure out how to get the serene misul on the homepage
+to resize when the window is changed*/
 
 div h4{
 	padding-top: 1em;
-	padding-right: 1em;
+	padding-bottom: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+	text-align: center;
 }
 .card {
 	padding-bottom: 2em;
@@ -14,7 +30,6 @@ div h4{
 	background-color: #FDFCDC;
 	max-width: 15em;
 }
-
 
 
 /*carousel*/
@@ -45,9 +60,10 @@ div h4{
 	transition: 0.3s ease;
 	user-select: none;
 }
+
 /* the styles for the footer */
 footer {
-	background-color: #f7e1d7;
+	background-color: #22333b;
 	position: relative;
 	left: 0;
 	bottom: 0;
@@ -58,7 +74,7 @@ footer {
 
 footer p {
 	text-align: center;
-	color: #22333b;
+	color: #FFFFFF;
 	margin-top: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;

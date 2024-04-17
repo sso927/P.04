@@ -2,6 +2,12 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+
+div div nav {
+	height: 5em;
+	font-weight: 1000;
+}
+
 /*styles for the cards*/
 .card {
 	padding-bottom: 2em;
@@ -51,7 +57,7 @@ h4 {
 
 /* the styles for the footer */
 footer {
-	background-color: #9B9FB5;
+	background-color: #22333b;
 	position: relative;
 	left: 0;
 	bottom: 0;
@@ -62,9 +68,8 @@ footer {
 
 footer p {
 	text-align: center;
-	color: #22333b;
+	color: #FFFFFF;
 	margin-top: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
- 

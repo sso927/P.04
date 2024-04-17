@@ -3,6 +3,12 @@
 }
 
 
+
+div div nav {
+	height: 5em;
+	font-weight: 1000;
+}
+
 /* styles for the header*/
 div div h4 {
 	margin-top: 1em;
@@ -17,7 +23,7 @@ h4 {
 
 /* the styles for the footer */
 footer {
-	background-color: #f7e1d7;
+	background-color: #22333b;
 	position: relative;
 	left: 0;
 	bottom: 0;
@@ -28,9 +34,8 @@ footer {
 
 footer p {
 	text-align: center;
-	color: #22333b;
+	color: #FFFFFF;
 	margin-top: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
- 
