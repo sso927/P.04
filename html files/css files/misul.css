@@ -1,6 +1,20 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* styles for the header*/
+div div h4 {
+	margin-top: 1em;
+	text-align: left;
+}
+
+h4 {
+	margin-top: 0.5em;
+	text-align: right;
+}
+
+
 /* the styles for the footer */
 footer {
 	background-color: #f7e1d7;

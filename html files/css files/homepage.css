@@ -1,5 +1,6 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
 }
 
 
@@ -16,6 +17,34 @@ div h4{
 
 
 
+/*carousel*/
+	/*slides*/
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin:auto;
+
+}
+
+	/*images*/
+.Containers {
+	display:none;
+}
+
+	/*buttons*/
+.Back, .forward {
+	cursor:pointer;
+	position: absolute;
+	top: 48%;
+	width: auto;
+	margin-top: -23px;
+	padding: 17px;
+	color: grey;
+	font-weight:bold;
+	font-size: 19px;
+	transition: 0.3s ease;
+	user-select: none;
+}
 /* the styles for the footer */
 footer {
 	background-color: #f7e1d7;
