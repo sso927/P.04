@@ -8,9 +8,31 @@ div div nav {
 	font-weight: 1000;
 }
 
+.rectangle {
+	max-width: 75%;
+	max-height: 75%;
+	border: #22333b solid 10px;
+	border-radius: 25px;;
+	background-color: #22333b;
+	color: #FFFFFF;
+	margin: auto;
+	margin-top: 4em;
+	padding:2em;
+	position: relative;
+}
+
+.form-group {
+	padding:1em;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+
+
+
 /* the styles for the footer */
 footer {
 	background-color: #22333b;
+	border-radius: 25px;
 	position: relative;
 	left: 0;
 	bottom: 0;
@@ -21,6 +43,7 @@ footer {
 
 footer p {
 	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
 	color: #FFFFFF;
 	margin-top: 1em;
 	padding-top: 1em;

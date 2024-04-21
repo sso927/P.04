@@ -58,6 +58,7 @@ h4 {
 /* the styles for the footer */
 footer {
 	background-color: #22333b;
+	border-radius: 25px;
 	position: relative;
 	left: 0;
 	bottom: 0;

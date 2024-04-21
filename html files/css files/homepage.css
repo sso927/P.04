@@ -8,62 +8,60 @@ div div nav {
 	font-weight: 1000;
 }
 
+
+/*header*/
 div h1 {
 	text-align: center;
 	margin-top: 1em;
+	margin-bottom: 12m;
 	font-size: 15em;
 	font-weight: 800;
+	opacity: 0; 
+	animation: fadeIn 3s ease-in;
+	animation-fill-mode: forwards;
 }
+
+/*animation*/
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+	
+	0%   {color: #22333b}
+	25%   {color: #857C8D}
+	50%   {color: #548C8B}
+	75%   {color: 505168}
+	100% {color: #22333b}
+}
+
+
+
 /*figure out how to get the serene misul on the homepage
 to resize when the window is changed*/
 
 div h4{
-	padding-top: 1em;
+	padding-top: 4em;
 	padding-bottom: 1em;
 	margin-left: 5em;
 	margin-right: 5em;
 	text-align: center;
-}
-.card {
-	padding-bottom: 2em;
-	padding-top: 2em;
-	background-color: #FDFCDC;
-	max-width: 15em;
+	margin-bottom: 5em;
 }
 
-
-/*carousel*/
-	/*slides*/
-.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin:auto;
-
-}
-
-	/*images*/
-.Containers {
-	display:none;
-}
-
-	/*buttons*/
-.Back, .forward {
-	cursor:pointer;
-	position: absolute;
-	top: 48%;
-	width: auto;
-	margin-top: -23px;
-	padding: 17px;
-	color: grey;
-	font-weight:bold;
-	font-size: 19px;
-	transition: 0.3s ease;
-	user-select: none;
+/*css for jumbotron*/
+.jumbotron{
+	background-color: #22333b !important;
 }
 
 /* the styles for the footer */
 footer {
 	background-color: #22333b;
+	border-radius: 25px;
+	margin-top: 4em;
 	position: relative;
 	left: 0;
 	bottom: 0;
