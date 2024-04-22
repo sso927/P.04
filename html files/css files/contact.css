@@ -27,16 +27,32 @@ div div nav {
 	
 }
 
+.rectangle button {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #FFFFFF;
+	border: #FFFFFF;
+	color:#22333b;
+}
 
+
+/*header*/
+div h3 {
+	text-align: center;
+	padding-top: 2em;
+	font-weight: 800;
+	font-size:xxx-large;
+	color:#000000;
+	padding-left: 2em;
+	padding-right: 2em;	
+	text-transform: uppercase;
+}
 
 /* the styles for the footer */
 footer {
 	background-color: #22333b;
 	border-radius: 25px;
 	position: relative;
-	left: 0;
-	bottom: 0;
-	top:0;
+	margin-top: 5em;
 	width: 100%;	
 	
 }
@@ -48,4 +64,5 @@ footer p {
 	margin-top: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	
 }

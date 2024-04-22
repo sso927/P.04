@@ -8,22 +8,36 @@ div div nav {
 	font-weight: 1000;
 }
 
+/*header*/
+div h2 {
+	text-align: center;
+	padding-top: 2em;
+	font-weight: 800;
+	font-size:xxx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 2em;	
+	text-transform: uppercase;
+	color:#000000;
+}
+
 
 /*styles for the cards*/
 .card {
 	padding-bottom: 2em;
 	padding-top: 4em;
-	background-color: #FFFFFF;
+	background-color: #d5d5dd;
 	max-width: 100%;
 	padding-left: 2em;
 	padding-right: 2em;
-	box-shadow: 1px 3px 3px 1px;
+	box-shadow: 0px 1px 1px 0px;
 	height: 100%;
 	text-align: center;
+	
 }
 
 .card img {
-	border: 2px solid #000000
+	border: 2px solid #d5d5dd;
+	border-radius: 10px;
 	
 }
 
@@ -32,8 +46,26 @@ div div nav {
 	width: 50%;
 	padding: 10px;
 	margin-bottom: 25px;
+	
+}
+ 
+.card p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: x-large;
+	
 }
 
+.card u {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: x-large;
+
+}
+
+.card i {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: x-large;
+
+}
 
 @media screen and (max-width: 500px) {
 	.column {
@@ -48,6 +80,7 @@ div div h4 {
 	margin-top: 1em;
 	padding-bottom: 1em;
 	text-align: left;
+	
 }
 
 div div div h4 {
@@ -56,11 +89,7 @@ div div div h4 {
 	font-size: 2em;;
 }
 
-h4 {
-	margin-top: 0.5em;
-	padding-bottom: 1em;
-	text-align: right;
-}
+
 
 /* the styles for the footer */
 footer {
@@ -80,4 +109,6 @@ footer p {
 	margin-top: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	font-family: 'Times New Roman', Times, serif;
+
 }
