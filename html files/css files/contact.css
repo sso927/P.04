@@ -32,6 +32,7 @@ div div nav {
 	background-color: #FFFFFF;
 	border: #FFFFFF;
 	color:#22333b;
+
 }
 
 
@@ -46,6 +47,26 @@ div h3 {
 	padding-right: 2em;	
 	text-transform: uppercase;
 }
+
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+	
+	0%   {color: #22333b}
+	25%   {color: #857C8D}
+	50%   {color: #548C8B}
+	75%   {color: 505168}
+	100% {color: #22333b}
+}
+
+
 
 /* the styles for the footer */
 footer {

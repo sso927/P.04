@@ -9,7 +9,7 @@ div div nav {
 }
 
 /*header*/
-div h2 {
+div h3{
 	text-align: center;
 	padding-top: 2em;
 	font-weight: 800;
@@ -67,7 +67,7 @@ div h2 {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
 		display: block; 

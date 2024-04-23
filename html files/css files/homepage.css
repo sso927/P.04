@@ -20,6 +20,9 @@ div h1 {
 	animation-fill-mode: forwards;
 }
 
+
+
+
 /*animation*/
 @keyframes fadeIn {
 	from {
@@ -36,8 +39,6 @@ div h1 {
 	75%   {color: 505168}
 	100% {color: #22333b}
 }
-
-
 
 /*figure out how to get the serene misul on the homepage
 to resize when the window is changed*/
