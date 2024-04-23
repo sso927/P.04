@@ -3,24 +3,11 @@
 }
 
 
-div div nav {
-	height: 5em;
-	font-weight: 1000;
-}
+
 .column {
-	-ms-flex: wrap; 
 	flex: 50%;
 	padding: 0.5em;
 
-  }
-
-
-@media screen and (max-width: 500px) {
-	.row {
-		width: 100%;
-		display: block; 
-	}
-	
 }
 
 
@@ -50,8 +37,12 @@ div h3{
 	  width: 100%;
 	  display: block; 
 	  padding: 2em;
-
 	}
+	.row {
+		width: 100%;
+		display: block; 
+	}
+	
   }
 
 /* the styles for the footer */

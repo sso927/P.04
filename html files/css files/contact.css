@@ -33,7 +33,15 @@ div div nav {
 	background-color: #FFFFFF;
 	border: #FFFFFF;
 	color:#22333b;
+}
 
+.empty div h3 {
+	text-align: center;
+	background-color: #FFFFFF;
+	margin: auto;
+	padding-top: 4em;
+	font-size: xxx-large;
+	font-weight: 700;
 }
 
 
