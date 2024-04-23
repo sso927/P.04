@@ -2,10 +2,7 @@
 	box-sizing: border-box;
 }
 
-div div nav {
-	height: 5em;
-	font-weight: 1000;
-}
+
 
 
 /*header*/
@@ -19,8 +16,6 @@ div h1 {
 	animation: fadeIn 3s ease-in;
 	animation-fill-mode: forwards;
 }
-
-
 
 
 /*animation*/

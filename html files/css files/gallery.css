@@ -11,7 +11,9 @@ div div nav {
 	-ms-flex: wrap; 
 	flex: 50%;
 	padding: 0.5em;
+
   }
+
 
 @media screen and (max-width: 500px) {
 	.row {
