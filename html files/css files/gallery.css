@@ -3,6 +3,12 @@
 }
 
 
+div div nav {
+	height: 5em;
+	font-weight: 1000;
+}
+
+
 
 .column {
 	flex: 50%;
