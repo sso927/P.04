@@ -9,6 +9,18 @@ div div nav {
 }
 
 
+@keyframes fadeIn {
+	0%   {color: #22333b;}
+	25%   {color: #857C8D;}
+	50% {color: #22333b;}
+	75%   {color: #548C8B;}
+	80%   {color: #3C5A68;}
+	100%   {color: #1b2e36;}
+
+
+}
+
+
 .empty div h3 {
 	text-align: center;
 	background-color: #FFFFFF;
@@ -17,6 +29,9 @@ div div nav {
 	padding-bottom: 2em;
 	font-size: xxx-large;
 	font-weight: 700;
+	animation: fadeIn 8s ease-in;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 }
 
 /*styles for the cards*/

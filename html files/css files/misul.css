@@ -24,15 +24,39 @@ div div h4 {
 	padding-top: 4em;
 	font-size: xxx-large;
 	font-weight: 700;
+	animation: fadeIn 8s ease-in;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 }
 
-h4 {
+.empty h4 {
 	margin-top: 0.5em;
-	text-align: right;
+	text-align: center;
+	padding-right: 10em;
+	padding-left: 10em;
+	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
 
 }
 
+
+@media only screen and (max-width: 600px) {
+	.empty h4 {
+	  font-size: 1.2em;
+	}
+  }
+
+  
+@keyframes fadeIn {
+	0%   {color: #22333b;}
+	25%   {color: #857C8D;}
+	50% {color: #22333b;}
+	75%   {color: #548C8B;}
+	80%   {color: #3C5A68;}
+	100%   {color: #1b2e36;}
+
+
+}
 
 
 /* the styles for the footer */

@@ -18,12 +18,17 @@ div div nav {
 
 
 
-/* styles for the header*/
-div div h4 {
-	margin-top: 2em;
-	padding-bottom: 1em;
-	text-align: left;
+@keyframes fadeIn {
+	0%   {color: #22333b;}
+	25%   {color: #857C8D;}
+	50% {color: #22333b;}
+	75%   {color: #548C8B;}
+	80%   {color: #3C5A68;}
+	100%   {color: #1b2e36;}
+
+
 }
+
 
 
 div h3{
@@ -35,6 +40,9 @@ div h3{
 	padding-bottom: 2em;	
 	text-transform: uppercase;
 	color:#000000;
+	animation: fadeIn 8s ease-in;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 }
 
 
